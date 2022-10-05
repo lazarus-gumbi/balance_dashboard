@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+*{
+    font-family: 'Roboto',sans-serif;
+    padding: 0;
+    margin: 0;
+    transition: 0.2s;
+}
+
+.content{
+    height: 100vh;
+    margin: 0rem 8rem;
+    
+}
+
+.nav{
+    background-color: #ffb803d0;
+    padding: 10px 8rem;
+    /* height: 7vh; */
+}
+
+.top{
+   padding-top: 2rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 2rem; */
+    
+}
+
+.balance_card{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 2rem;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mpesa{
+    background-color: #86D255;
+    border: 1px solid #096D14;
+}
+
+.ecocash{
+    background-color: #0f56a17c;
+    border: 1px solid #0F56A1;
+}
+
+.float{
+    background-color: #eeaf019d;
+    border: 1px solid #EEB001;
+}
+
+.balance_card .float_bal{
+    font-size: 2rem;
+}
+
+.balance_card .check_bal{
+    font-size: 2rem;
+}
+
+#check_balance{
+    margin-top: 1rem;
+    padding: 1rem .4rem;
+    background-color: #023047;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+}
+
+#check_balance:hover{
+    cursor: pointer;
+    background-color: #0c3f58cc;
+
+}
